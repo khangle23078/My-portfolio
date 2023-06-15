@@ -12,7 +12,7 @@ const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
       <div className="layout-center border-b border-b-white pb-[103px]">
         <div className="flex flex-col md:flex-row gap-[95px]">
           <h4 className="text-lg text-white uppercase">Experience</h4>
-          <div className="flex flex-col gap-[54px]">
+          <div className="flex-1 flex flex-col gap-[54px]">
             {experiences.map((item: IExperience) => {
               return (
                 <div className="max-w-[852px]" key={item.id}>
