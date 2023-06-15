@@ -1,5 +1,3 @@
-import { description } from './description';
-
 export interface IProject {
   id: number;
   image: string;
