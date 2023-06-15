@@ -10,11 +10,16 @@ export default {
         greyText: '#F0F0F0',
         blueBold: '#6CACE4',
         dark: '#111111',
-        gradiant: 'linear-gradient(89.81deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);',
+        purple100: 'rgba(152, 69, 232, 1)',
+        blue100: 'rgba(51, 210, 255, 1)',
+        pink100: 'rgba(221, 87, 137, 1)',
       },
       fontFamily: {
         Inter: 'Inter',
         Walsheim: 'GT Walsheim Pro'
+      },
+      borderWidth: {
+        DEFAULT: '1px'
       }
     },
   },

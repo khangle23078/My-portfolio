@@ -1,17 +1,24 @@
+import MailIcon from './../assets/icons/mail-fill 1.svg';
+import LinkedinIcon from './../assets/icons/linkedin.svg';
+import GithubIcon from './../assets/icons/github.svg';
+
 export const contact = [
   {
     id: 1,
     title: 'Send a email',
-    icon: import('./../assets/icons/mail-fill 1.svg'),
+    icon: MailIcon,
+    link: 'khangle2307@gmail.com',
   },
   {
     id: 2,
     title: 'Linkedin',
-    icon: import('./../assets/icons/linkedin.svg'),
+    icon: LinkedinIcon,
+    link: 'https://www.linkedin.com/in/khangle2307/',
   },
   {
     id: 3,
     title: 'Github',
-    icon: import('./../assets/icons/github.svg'),
+    icon: GithubIcon,
+    link: 'https://github.com/khangle23078',
   },
 ];
