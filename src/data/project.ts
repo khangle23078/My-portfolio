@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     id: 2,
-    name: 'OneMobile',
+    name: 'Shop management',
     image: shopManagement,
     github_link: 'https://github.com/khangle23078/OneMobile-backend',
     demo_link: 'https://github.com/khangle23078/OneMobile-backend',
